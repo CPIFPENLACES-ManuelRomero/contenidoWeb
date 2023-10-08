@@ -1,0 +1,944 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido de desarrollo web – Conceptos de Desarrollo Web</title>
+    <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/</link>
+    <description>Recent content in Conceptos de Desarrollo Web on Contenido de desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
+    
+	  <atom:link href="http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Introducción</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_0_introducci%C3%B3n/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_0_introducci%C3%B3n/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;desarrollar-aplicaciones-web-en-entorno-servidor&#34;&gt;Desarrollar aplicaciones web en entorno servidor&lt;/h2&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:347px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_0_introducci%C3%B3n/dwes_1_hu4066f0ac447d3fcd408027698ada2d00_39012_1000x1000_fit_box_3.png&#34;
+         width=&#34;337&#34;
+         height=&#34;97&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El propio texto especifica el objetivo de este módulo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Desarrollar una aplicación&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Una aplicación &lt;strong&gt;web&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;En el entorno del &lt;strong&gt;servidor&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-warning&#34;&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;En el proceso de una ejecución web intervienen 3 elementos&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comprender estos conceptos es importante para abordar el objetivo&lt;/li&gt;
+&lt;li&gt;En este primer tema vamos a comentar y profundicar en estos conceptos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;la-comnunicación&#34;&gt;La comnunicación&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:303px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_0_introducci%C3%B3n/cliente_servidor_hu448b91d6dbfc90ef8a663e83338ffeac_5294_1000x1000_fit_q75_box.jpg&#34;
+         width=&#34;293&#34;
+         height=&#34;172&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Un  &lt;strong&gt;cliente&lt;/strong&gt;  solicita y un &lt;strong&gt;servidor&lt;/strong&gt; que entrega (o no)&lt;/li&gt;
+&lt;li&gt;El &lt;strong&gt;cliente&lt;/strong&gt; suele ser un &lt;em&gt;navegador&lt;/em&gt; &lt;strong&gt;(una aplicación ejecutándose en una máquina con una ip)&lt;/strong&gt; que solicita &lt;strong&gt;un recurso&lt;/strong&gt; (p.e. una página web)&lt;/li&gt;
+&lt;li&gt;El &lt;strong&gt;servidor&lt;/strong&gt; es una &lt;em&gt;aplicación&lt;/em&gt; (puede ser apache) ejecutándose en una máquina que atiende a las solicitudes que entran por un puerto y entregan el recurso solicitado.&lt;/li&gt;
+&lt;li&gt;Las aplicaciones Web usan una arquitectura Cliente/Servidor&lt;/li&gt;
+&lt;li&gt;Está basada en la idea del servicio&lt;/li&gt;
+&lt;li&gt;El servidor es un software ejecutándose en una máquina escuchando a que le soliciten un servicio&lt;/li&gt;
+&lt;li&gt;El cliente inicia el proceso solicitando un servicio a un servidor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;elementos-que-intervienen&#34;&gt;Elementos que intervienen&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;En el proceso de una ejecución web intervienen 3 elementos&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:710px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_0_introducci%C3%B3n/AplicacioneWeb1_hu6ec9cdb283834401ccfc464f6b0bd834_183585_100000x700000_fit_box_3.png&#34;
+         width=&#34;700&#34;
+         height=&#34;392&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+Entiendes bien los tres elementos
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+En la siguiente imagen podemos identificar estas tres partes (&lt;strong&gt;&lt;strong&gt;Cliente, Servidor y Red&lt;/strong&gt;&lt;/strong&gt;) *&lt;strong&gt;elementos de dicha comunicación&lt;/strong&gt; a nivel funcional.
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:1810px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_0_introducci%C3%B3n/comunicacion_web_1_hua57fbde194aeb0fc86c96ac689468a4b_219163_1800x1000_fill_box_center_3.png&#34;
+         width=&#34;1800&#34;
+         height=&#34;1000&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+  &lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: El cliente</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;iniciando-la-comunicación-cliente-o-agente&#34;&gt;Iniciando la comunicación :Cliente o Agente&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;strong&gt;Es  el &lt;strong&gt;elemento&lt;/strong&gt; que inicia el proceso de comunicación realizando una solicitud o petición a un servidor web para obtener recursos o servicios.&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Cuidado!!!&lt;/h4&gt;
+
+    No confundir &lt;strong&gt;cliente&lt;/strong&gt; &lt;em&gt;(p.e un navegador)&lt;/em&gt; con &lt;strong&gt;usuario&lt;/strong&gt; &lt;em&gt;(persona que inicia el programa y escribe)&lt;/em&gt;
+
+&lt;/div&gt;
+
+Al cliente también se le conoce como &lt;strong&gt;agente&lt;/strong&gt; (En un sentido más amplio)&lt;/p&gt;
+&lt;h2 id=&#34;tipos-de-clientes&#34;&gt;Tipos de clientes&lt;/h2&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:210px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/navegador_hu7186a520015b6f604d753c2d9076fc96_249857_200x200_fit_box_3.png&#34;
+         width=&#34;200&#34;
+         height=&#34;106&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;p&gt;1- &lt;em&gt;&lt;strong&gt;Navegador web&lt;/strong&gt;&lt;/em&gt;:
+Este es el caso más común. Un navegador web, como Chrome, Firefox, Safari o Edge, es un cliente que permite a los usuarios solicitar páginas web y recursos mediante la introducción de URLs o haciendo clic en enlaces.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:310px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/aplicacionWeb_hu5da520345c65f5bdfd132e03197542f3_11186_300x400_fit_q75_box.jpeg&#34;
+         width=&#34;300&#34;
+         height=&#34;112&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;p&gt;2- &lt;em&gt;&lt;strong&gt;Aplicación web&lt;/strong&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;Las aplicaciones web también actúan como clientes cuando realizan solicitudes a servidores para obtener datos o servicios.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:110px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/crawler_hu199bebd92d365e98e1804f82682e16a8_35604_100x100_fit_box_3.png&#34;
+         width=&#34;100&#34;
+         height=&#34;100&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+Araña Rastreador
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+3- &lt;em&gt;&lt;strong&gt;Araña o rastreador web&lt;/strong&gt;&lt;/em&gt;:
+Este puede parecer un caso diferente;&lt;/p&gt;
+&lt;p&gt;No es un cliente en el sentido tradicional, los rastreadores web (como los utilizados por motores de búsqueda como Google), también inician solicitudes a servidores web. Estos rastreadores exploran sitios web, por ejemplo  para indexar su contenido y hacerlo accesible a través de los motores de búsqueda.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:110px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/aplicacionMovil_huc08ef8774836520afdb996d709746f31_8942_100x100_fit_q75_box.jpeg&#34;
+         width=&#34;100&#34;
+         height=&#34;95&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+Aplicacioń Móvil
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;p&gt;4- &lt;em&gt;&lt;strong&gt;Aplicación móvil o de escritorio&lt;/strong&gt;&lt;/em&gt;:
+Las aplicaciones móviles y de escritorio que se conectan a &lt;strong&gt;servicios web&lt;/strong&gt;  también son clientes, ya que solicitan datos o recursos del servidor para funcionar correctamente.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:210px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/electrodomesticos_hu250115b03a18e8f31ea14c50ad6a147e_20694_200x300_fit_q75_h2_box_2.webp&#34;
+         width=&#34;200&#34;
+         height=&#34;120&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;p&gt;5- &lt;em&gt;&lt;strong&gt;Otros dispositivos conectados a Internet&lt;/strong&gt;&lt;/em&gt;: Incluso dispositivos como impresoras, cámaras IP y electrodomésticos inteligentes pueden ser considerados clientes si se comunican con servidores web para recibir actualizaciones de firmware, enviar datos o acceder a servicios en línea.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: La Red</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;la-red&#34;&gt;La Red&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Para nosotros va a ser el &lt;strong&gt;Medio por el cual transcurre la comunicación entre el emisor (cliente) y el receptor (servidor)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+La red es algo físico (dispositivos) y también tiene parte lógica (servicios con su  configuracion )
+Conviene hacer un repaso sencillo cómo se organiza una red.&lt;/p&gt;
+&lt;p&gt;La red no es algo monolítico si no para su implementación y gestión se divide en niveles o capas.&lt;/p&gt;
+&lt;p&gt;Existe un modelo de referencia OSI de 7 capas, pero la red más utilizada, es la red de internet o red TCP/IP que en su implementación mantiene 4 capas:
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:324px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_2_red/nivelesTcpIp_hue3632eee2236f1fe3f7255ee8f028dba_78959_500x500_fit_box_3.png&#34;
+         width=&#34;314&#34;
+         height=&#34;500&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Como podemos ver cada capa implementa &lt;strong&gt;protocolos&lt;/strong&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Protocolo&lt;/strong&gt;&lt;/em&gt; :conjunto de reglas establecidas que permite que dos dispositivos del mismo nivel puede intercambiar mensajes que puede interpretar y gestionar&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:1210px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_2_red/ProtocoloTcpIpDWES_hua5ae8af63e89052453fb60ca27361566_420933_1200x1000_fit_box_3.png&#34;
+         width=&#34;1200&#34;
+         height=&#34;572&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-info&#34;&gt;
+&lt;p&gt;El proceso de comunicacion empieza creando un mensaje o contenido  en la aplicacion y se envía por la capa física.
+Para que dichos datos viajen, tienen un proceso de transformación que conviene conocer, el cual podemos ver en la siguiente imagen&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:1037px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_2_red/Transmision_tcp_ip2_huebd255f64645a1ef6c8be7cdf05a9afb_84581_1200x600_fit_box_3.png&#34;
+         width=&#34;1027&#34;
+         height=&#34;448&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+A continuación vamos a tratar unos puntos que se podrían incluir en el tema de servidor dentre de estos tres elementos, pero también en el apartado de la red&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: El Servidor</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/12_servidor/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/12_servidor/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;el-servidor&#34;&gt;El Servidor&lt;/h1&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;ℹ-el-servidor-nuestro-objeto-de-estudio&#34;&gt;ℹ️ El Servidor: Nuestro objeto de estudio&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Recibe e interpreta la solicitud del cliente&lt;/li&gt;
+&lt;li&gt;Accede a bases de datos según necesidades&lt;/li&gt;
+&lt;li&gt;Ejecuta código en el servidor, generando como resultado una página html que es lo que da al cliente&lt;/li&gt;
+&lt;li&gt;(El cliente no ve el código del servidor).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-warning&#34;&gt;
+&lt;h5 id=&#34;-podemos-visualizar-una-página-web-sin-que-intervenga-un-servidor-web&#34;&gt;❓ ¿Podemos visualizar una página web sin que intervenga un servidor web?&lt;/h5&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;servidores-web&#34;&gt;Servidores web&lt;/h3&gt;
+&lt;p&gt;Como hemos comentado, un servidor web es una aplicación que se ejecuta en una máquina como un servicio y se mantiene escuchando por un determinado puerto &lt;br&gt;
+Entre los más populares tenemos :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Apache HTTP Server&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Microsoft IIS (Internet Information Services)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NGINX&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lighttpd&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sun Java System Web Server&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ejercicio: Investiga las características y diferencias de cada uno de
+éstos servidores web: plataforma en la que se ejecutan, lenguajes de programación que interpretan, propietario, etc.
+Para el servidor para a instalar un programa llamado &lt;strong&gt;apache&lt;/strong&gt; pero esta parte la abordaremos en la sección de instalación del sistema&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-práctica&#34;&gt;:📚: Práctica&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Ahora practica tú&lt;/h4&gt;
+
+    &lt;ul&gt;
+&lt;li&gt;Investiga las características y diferencias de cada uno de
+éstos servidores web:&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;plataforma en la que se ejecutan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;lenguajes de programación que interpretan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;Si son propietarios o se pueden usar de manera free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;Cualquier otra característica que consideres.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Desarrollar una aplicación</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/20_desarrollar-una-aplicaci%C3%B3n/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/20_desarrollar-una-aplicaci%C3%B3n/</guid>
+      <description>
+        
+        
+        &lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h4 id=&#34;-sabemos-lo-que-es-desarrollar-una-aplicación&#34;&gt;📚 Sabemos lo que es desarrollar una aplicación&lt;/h4&gt;
+&lt;p&gt;Son muchas las posibles respuestas, pero al menos deberíamos saber dar una de forma correcta
+####❓ Intenta dar una respuesta con tus palabras&lt;/p&gt;
+
+&lt;/div&gt;
+
+Actividad&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-warning&#34;&gt;
+&lt;h4 id=&#34;posible-definición&#34;&gt;📖Posible definición:&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Dado un problema de naturaleza lógica&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Desarrollar una aplicación consiten en:
+Implementar o construir un programa,
+usando un determinado lenguaje de programación.&lt;br&gt;
+Dicho programa consiste en un conjunto de instrucciones,&lt;br&gt;
+que ejecutadas en un entorno computacional,&lt;br&gt;
+solucionan de forma automatizada el problema planteado.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Para desarrollar una aplicación o programa&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hay que entenderlo muy bién lo que queremos hacer&lt;/li&gt;
+&lt;li&gt;Hay que planificarlo&lt;/li&gt;
+&lt;li&gt;Hay que realizar esa planificación y probarla&lt;/li&gt;
+&lt;li&gt;Observa la siguiente imagen que reune diferentes la consecuencia de diferentes mitos en el desarrollo.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:760px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/20_desarrollar-una-aplicaci%C3%B3n/DesarrolloAplicaciones_hu978c9913295d59210ad61a2239f6c9ba_84242_1000x1000_fit_q75_box.jpg&#34;
+         width=&#34;750&#34;
+         height=&#34;563&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;h3 id=&#34;-fases-en-el-desarrollo-de-una-aplicación&#34;&gt;🔑 Fases en el desarrollo de una aplicación&lt;/h3&gt;
+&lt;p&gt;Se pueden aplicar diferentes metodologías o fases a la hora de desarrollar una aplicación.&lt;br&gt;
+Cuando nos referimos a desarrollar una aplicación de una forma u otra, tenemos que:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Analizar el problema.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diseñar una solución algorítmica válida.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Escribir el código de dicha solución utilizando uno o varios lenguajes de programación concreto, interpretados o complilados.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;fases-en-el-desarrollo-tradicional&#34;&gt;Fases en el desarrollo tradicional&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:666px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/20_desarrollar-una-aplicaci%C3%B3n/AnalisisDisenoImple1_hubcc2b996ecfdd980dbf6f2bab237ce59_30531_1000x1000_fit_box_3.png&#34;
+         width=&#34;656&#34;
+         height=&#34;376&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;📚 Actividad, Realizar la aplicación &lt;strong&gt;Ecuaciones de segundo grado&lt;/strong&gt; con este esquema&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:685px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/20_desarrollar-una-aplicaci%C3%B3n/analisis_ecuaciones_1_huc2a7782619ffaa708428f607c2d5f5f3_135870_1000x1000_fit_box_3.png&#34;
+         width=&#34;675&#34;
+         height=&#34;401&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;El planteamiento es el siguiente&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Se trata de encontrar dos valores para que la ecuación se satisfaga (que sea 0)&lt;/li&gt;
+&lt;li&gt;La ecuación que lo resuelve también se aporta&lt;/li&gt;
+&lt;li&gt;Esto es una parte del análisis que consiste en entender el problema que el cliente nos trasmite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Un posible análisis&lt;/strong&gt;:
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:772px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/20_desarrollar-una-aplicaci%C3%B3n/E1g_analisis_hu799cd123b94d7054287ac917cd4fb354_51648_1000x1000_fit_box_3.png&#34;
+         width=&#34;762&#34;
+         height=&#34;395&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;strong&gt;Un posible diseño&lt;/strong&gt;:
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:868px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/20_desarrollar-una-aplicaci%C3%B3n/E1g_diseno_huafbc5af4f83419c65082e8d5628e5542_134607_1000x1000_fit_box_3.png&#34;
+         width=&#34;858&#34;
+         height=&#34;721&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: App en la Web</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;elementos-que-intervienen&#34;&gt;Elementos que intervienen&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;En el proceso de una ejecución web intervienen 3 elementos&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:710px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/AplicacioneWeb1_hu6ec9cdb283834401ccfc464f6b0bd834_183585_100000x700000_fit_box_3.png&#34;
+         width=&#34;700&#34;
+         height=&#34;392&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+Entiendes bien los tres elementos
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;el-cliente&#34;&gt;El cliente&lt;/h3&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El cliente &amp;lsquo;&amp;lsquo;&amp;lsquo;Inicia la comunicación&amp;rsquo;&amp;rsquo;&amp;rsquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:455px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/cliente_hud819f5dc5adabe568327f1dba894af8e_23413_100000x700000_fit_q75_box.jpg&#34;
+         width=&#34;445&#34;
+         height=&#34;343&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+Un navegador con una ip (un tipo de cliente)
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;la-red&#34;&gt;La red&lt;/h3&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;La red; El medio por el que transcurre la comunicación&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:1295px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/red_hu82d13b2af6a251bab71cbc6507167940_420927_100000x700000_fit_box_3.png&#34;
+         width=&#34;1285&#34;
+         height=&#34;612&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;el-servidor&#34;&gt;El servidor&lt;/h3&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;El servidor Programa que recibe una solicitud y entrega un fichero, recurso o página web&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:713px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/servidor_hu6e25e2c5e2c68b87c198dd6578d25a2e_59526_100000x700000_fit_box_3.png&#34;
+         width=&#34;703&#34;
+         height=&#34;448&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;el-cliente-1&#34;&gt;El cliente&lt;/h3&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;la-red-1&#34;&gt;La red&lt;/h3&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;el-servidor-1&#34;&gt;El servidor&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Entorno Servidor</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/40_entornoservidor/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/40_entornoservidor/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;el-cliente&#34;&gt;El cliente&lt;/h3&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El cliente &amp;lsquo;&amp;lsquo;&amp;lsquo;Inicia la comunicación&amp;rsquo;&amp;rsquo;&amp;rsquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:455px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/40_entornoservidor/cliente_hud819f5dc5adabe568327f1dba894af8e_23413_100000x700000_fit_q75_box.jpg&#34;
+         width=&#34;445&#34;
+         height=&#34;343&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+Un navegador con una ip (un tipo de cliente)
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;la-red&#34;&gt;La red&lt;/h3&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;La red; El medio por el que transcurre la comunicación&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:1295px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/40_entornoservidor/red_hu82d13b2af6a251bab71cbc6507167940_420927_100000x700000_fit_box_3.png&#34;
+         width=&#34;1285&#34;
+         height=&#34;612&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;el-servidor&#34;&gt;El servidor&lt;/h3&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;El servidor Programa que recibe una solicitud y entrega un fichero, recurso o página web&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:713px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/40_entornoservidor/servidor_hu6e25e2c5e2c68b87c198dd6578d25a2e_59526_100000x700000_fit_box_3.png&#34;
+         width=&#34;703&#34;
+         height=&#34;448&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;el-cliente-1&#34;&gt;El cliente&lt;/h3&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;la-red-1&#34;&gt;La red&lt;/h3&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;el-servidor-1&#34;&gt;El servidor&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

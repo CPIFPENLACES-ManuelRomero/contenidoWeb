@@ -1,0 +1,464 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido de desarrollo web – La Red</title>
+    <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/</link>
+    <description>Recent content in La Red on Contenido de desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
+    
+	  <atom:link href="http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Protocolos</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/12_0_procolos_y_configuraciones/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/12_0_procolos_y_configuraciones/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ip&#34;&gt;ip&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:510px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_2_red/12_0_procolos_y_configuraciones/ip_hu285315fafcf53933231e0dd20c6c61ae_8810_500x500_fit_q75_h2_box_2.webp&#34;
+         width=&#34;500&#34;
+         height=&#34;281&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+Es un protocolo, o mejor dicho  
+&lt;span style=&#34;font-weight:bold&#34; class=&#34; text-success&#34; &gt;
+
+    el protocolo  del nivel de red
+
+&lt;/span&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;-__protocolo-de-internet__&#34;&gt;🌟 &lt;strong&gt;Protocolo de internet&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Dentro de la red de tipo  &lt;strong&gt;TCP/IP&lt;/strong&gt; o red de  &lt;strong&gt;Internet&lt;/strong&gt;&lt;br&gt;
+Su función principal es localizar la red donde está el equipo destino&lt;br&gt;
+En su configuración aparece el número IP que es el &lt;strong&gt;identificador único&lt;/strong&gt; que tienen un nodo dentro de la red de tipo TCP/IP o red de Internet &lt;br&gt;
+Tenemos IP V4 e IPV6 que es la que actualmente se utiliza, ya que las V4 hace muchos años que se agotaron&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Acceder a dispositivos&lt;/h4&gt;
+
+    &lt;p&gt;La IP identifica a un dispositivos de manera única&lt;/p&gt;
+&lt;p&gt;Para acceder a un dispositivos utilizamos un nombre de dominio a nivel de aplicación usando &lt;em&gt;http&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Siempre&lt;/strong&gt; Se debe de hacer una traducción de ese nombre de dominia a la ip conrrespondiente. Esto suele ocurrir desde un servicio &lt;em&gt;DNS&lt;/em&gt; .&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;comandos-de-ip&#34;&gt;Comandos de ip&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ping &lt;span style=&#34;color:#228b22&#34;&gt;# Para cominicarme con un hello con un dispositivo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ifconfig &lt;span style=&#34;color:#228b22&#34;&gt;# Mostrar la configuración de la tarjeta de red&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ip &lt;span style=&#34;color:#228b22&#34;&gt;# Un comando sustituo de ifconfig (ver la ayuda con &amp;#39;man ip&amp;#39;) &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tracert &lt;span style=&#34;color:#228b22&#34;&gt;# Monitorizar  la traza de rutas de ip&amp;#39;s que sigue un paquete seguido para llegar a un dispositivo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;route &lt;span style=&#34;color:#228b22&#34;&gt;# Permite conocer mis rutas y la ip de mi router más próximo (mi gateway que enruta)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tracert para conocer la traza de rutas o ip&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;&amp;#39;&lt;/span&gt;s que sigue un paquete en una transmisión
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;ficheros-importantes-de-configuración&#34;&gt;Ficheros importantes de configuración&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/etc/hosts &lt;span style=&#34;color:#228b22&#34;&gt;# Asignación directa ip =&amp;gt; dominio&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/etc/hostname &lt;span style=&#34;color:#228b22&#34;&gt;# Nombre asociado al host&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/etc/resolv.conf &lt;span style=&#34;color:#228b22&#34;&gt;# Ip del dns para resolver dominios y obtener su ip&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;el-puerto&#34;&gt;El puerto&lt;/h3&gt;
+&lt;p&gt;Este es un concepto muy importante.
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;En el nivel de transporte tenemos los protocolos UDP y TCP&lt;/li&gt;
+&lt;li&gt;Su función principal es localizar/identificar la aplicación a la cual va a ir destinada la comunicación o datos&lt;/li&gt;
+&lt;li&gt;Se hace a través de un número que se conoce como el nombre puerto
+&lt;ul&gt;
+&lt;li&gt;Muchos protocolos a nivel de aplicación tienen asignados puertos reservados, estando estos asignados del 0 al 1023 .
+&lt;ul&gt;
+&lt;li&gt;Ejemplos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://debianhackers.net/de-puertos-y-firewalls-basico/&#34;&gt;información adicional sobre puertos:  https://debianhackers.net/de-puertos-y-firewalls-basico/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;algunos-de-los-principales-puertos&#34;&gt;Algunos de los principales puertos&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Puerto&lt;/th&gt;
+&lt;th&gt;Protocolo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Nombre&lt;/td&gt;
+&lt;td&gt;Descripción&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20/tcp&lt;/td&gt;
+&lt;td&gt;ftpS-data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21/tcp&lt;/td&gt;
+&lt;td&gt;ftp-control&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22/tcp&lt;/td&gt;
+&lt;td&gt;ssh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23/tcp&lt;/td&gt;
+&lt;td&gt;telnet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25/tcp&lt;/td&gt;
+&lt;td&gt;smtp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;69/udp&lt;/td&gt;
+&lt;td&gt;tftp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;80/tcp&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;http&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;109/tcp&lt;/td&gt;
+&lt;td&gt;pop2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;115/tcp&lt;/td&gt;
+&lt;td&gt;sftp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;143/tcp&lt;/td&gt;
+&lt;td&gt;imap&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;161/udp&lt;/td&gt;
+&lt;td&gt;snmp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;220/tcp&lt;/td&gt;
+&lt;td&gt;imap3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;389/tcp&lt;/td&gt;
+&lt;td&gt;ldap&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;443/tcp&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;https&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;444/tcp&lt;/td&gt;
+&lt;td&gt;snpp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;465/tcp&lt;/td&gt;
+&lt;td&gt;smtps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;587/tcp&lt;/td&gt;
+&lt;td&gt;smtp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;993/tcp&lt;/td&gt;
+&lt;td&gt;imaps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;www-y-el-protocolo-http&#34;&gt;WWW y el Protocolo Http&lt;/h3&gt;
+&lt;p&gt;Los  
+&lt;span style=&#34;font-weight:bold&#34; class=&#34; text-success&#34; &gt;
+
+    códigos
+
+&lt;/span&gt;
+ http son importantes de conocer
+Cuando se solicita un recurso web,  
+&lt;span style=&#34;font-weight:bold&#34; class=&#34; text-warning&#34; &gt;
+
+    el servidor
+
+&lt;/span&gt;
+
+siempre retorna en la cabecera de la respuesta un   
+&lt;span style=&#34;font-weight:bold&#34; class=&#34; green&#34; &gt;
+
+    código
+
+&lt;/span&gt;
+
+código&lt;/p&gt;
+&lt;p&gt;Es importante conocer los códigos que retorna http, se agrupen en 5 grupos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Respuestas informativas (100–199),&lt;/li&gt;
+&lt;li&gt;Respuestas satisfactorias (200–299),&lt;/li&gt;
+&lt;li&gt;Redirecciones (300–399),&lt;/li&gt;
+&lt;li&gt;Errores de los clientes (400–499),&lt;/li&gt;
+&lt;li&gt;Errores de los servidores (500–599).&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/es/docs/Web/HTTP/Status&#34;&gt;🔗 &lt;strong&gt;Web con Códigos de estado de respuesta HTTP&lt;/strong&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;la-url-o-uri&#34;&gt;La URL o URI&lt;/h3&gt;
+&lt;p&gt;
+&lt;span style=&#34;font-weight:bold&#34; class=&#34; text-primary&#34; &gt;
+
+    Especificando el recurso&lt;br&gt;
+(puede ser una página web con o sin código que ejecutar)&lt;br&gt;
+que solicitamos al servidor.
+
+&lt;/span&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;ℹ-proceso&#34;&gt;ℹ️ Proceso&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;El cliente hace una petición de una página web&lt;/li&gt;
+&lt;li&gt;Para ello escribe la URI en el navegador indicando máquina dónde está.&lt;/li&gt;
+&lt;li&gt;También nombre de la página que solicita, protocolo usado y puerto por el que realiza la solicitud.&lt;/li&gt;
+&lt;li&gt;En la mayoría de las ocasiones se toma el puerto por defecto para ese protocolo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;http 80, https 443&lt;/strong&gt;_&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h4 id=&#34;ℹ-agregando-datos-en-la-cabecera__solicitud-y-fragmento__&#34;&gt;ℹ️ Agregando datos en la cabecera:&lt;strong&gt;solicitud y fragmento&lt;/strong&gt;&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;La solicitud&lt;/strong&gt; son parejas variabla=valor que se pasan en la solicitud&lt;br&gt;
+&lt;strong&gt;El fragmento&lt;/strong&gt; representa una parte concreta de la página que se solicita,&lt;br&gt;
+Para el fragmento se utiliza el método GET dentro del protocolo http.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;-ejemplo-de-direcciones&#34;&gt;⭐ Ejemplo de direcciones&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Usando fragmento&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;protcolo://maquina/ruta/recurso/fragmento
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;http://www.unizar.es/deiss/notas.html#primerCurso
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Usando solicitud&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;protcolo://maquina/ruta/recurso/solicitud
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;http://www.unizar.es/deiss/notas.htmll?nombre=&lt;span style=&#34;color:#cd5555&#34;&gt;&amp;#34;Manuel&amp;#34;&lt;/span&gt;&amp;amp;&lt;span style=&#34;color:#00688b&#34;&gt;modulo&lt;/span&gt;=&lt;span style=&#34;color:#cd5555&#34;&gt;&amp;#34;DWES&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Ejemplo de direcciones&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Usando el puerto
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;protcolo://maquina/ruta/recurso:puerto/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;http://www.unizar.es:80/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Si se elude alguna parte se toma el valor por defecto o lo que establezca el servidor web
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Importante&lt;/h4&gt;
+
+    &lt;p&gt;&lt;strong&gt;Ver directivas de configuración del servidor web&lt;/strong&gt;
+Se ubica en el fichero&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/etc/apache2/apache2.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/etc/apache2/sites-available/000-default.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;-práctica&#34;&gt;📚 Práctica&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Ahora practica tú&lt;/h4&gt;
+
+    &lt;ul&gt;
+&lt;li&gt;En este tema la práctica coniste en que revises los conceptos e investigues en la red temas de protocolos,&lt;/li&gt;
+&lt;li&gt;Intenta responder a esta pregunta&lt;/li&gt;
+&lt;li&gt;Por qué se dice que http es un protocolo sin estado ❓&lt;/li&gt;
+&lt;li&gt;❓ Por qué se dice que ip es un protocolo no seguro &lt;a href=&#34;..%2F..%2F..%2F0_Presentaci%C3%B3n&#34;&gt;0_Presentación&lt;/a&gt;
+&lt;a href=&#34;..%2F..&#34;&gt;..&lt;/a&gt;
+&lt;a href=&#34;..%2F..%2F..%2F2_hugo_&#34;&gt;2_hugo_&lt;/a&gt;
+&lt;a href=&#34;..%2F..%2F..%2F3_%20php_&#34;&gt;3_ php_&lt;/a&gt;
+&lt;a href=&#34;..%2F..%2F..%2F4_laravel_&#34;&gt;4_laravel_&lt;/a&gt;&lt;a href=&#34;..%2F..&#34;&gt;..&lt;/a&gt;
+&lt;a href=&#34;..%2F..%2F..%2F0_Presentaci%C3%B3n&#34;&gt;0_Presentación&lt;/a&gt;
+&lt;a href=&#34;..%2F..%2F..%2F2_hugo_&#34;&gt;2_hugo_&lt;/a&gt;
+&lt;a href=&#34;..%2F..%2F..%2F3_%20php_&#34;&gt;3_ php_&lt;/a&gt;
+&lt;a href=&#34;..%2F..%2F..%2F4_laravel_&#34;&gt;4_laravel_&lt;/a&gt;❓&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Curl</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/12_1_comando-curl/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_2_red/12_1_comando-curl/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;el-comando-curl&#34;&gt;El comando curl&lt;/h3&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width:510px&#34;&gt;
+
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/dwes/docs/1_conceptos-de-web-developer/1_2_red/12_1_comando-curl/curl_hu832bda4e95ff3903c40aede1fa305460_20704_500x500_fit_q75_h2_box_2.webp&#34;
+         width=&#34;500&#34;
+         height=&#34;250&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;-__qué-es-curl__&#34;&gt;👉 &lt;strong&gt;Qué es curl&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Curl&lt;/strong&gt; es una herramienta de línea de comandos utilizada para realizar solicitudes de red desde la terminal de un sistema.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;-__permite__&#34;&gt;⭐ &lt;strong&gt;Permite&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Interactuar con servicios web y servidores&lt;/li&gt;
+&lt;li&gt;Enviar y recibir datos&lt;/li&gt;
+&lt;li&gt;Realizar diversas operaciones de red.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h3 id=&#34;-__uso__&#34;&gt;🛠️ &lt;strong&gt;Uso&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Es una herramienta versátil y poderosa.&lt;/strong&gt;&lt;br&gt;
+Para los desarrolladores la podemos utilizaz  para determinadas tareas_&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Descargar archivos&lt;/li&gt;
+&lt;li&gt;Interactuar con APIs web&lt;/li&gt;
+&lt;li&gt;Verificar la conectividad de servidores y servicios en línea.&lt;/li&gt;
+&lt;li&gt;Ver cabeceras de la comunicación&lt;/li&gt;
+&lt;li&gt;Verificar temas de seguridad&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;instalación&#34;&gt;Instalación&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install culr
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Usos Básicos de Curl:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Descargar Archivos:&lt;/strong&gt; Puedes usar &lt;code&gt;curl&lt;/code&gt; para descargar archivos desde la web directamente a tu sistema. Por ejemplo, puedes descargar una imagen, un archivo de texto o un recurso web con un simple comando.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -O URL_DEL_ARCHIVO
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Consultar Servicios Web:&lt;/strong&gt; Curl es útil para realizar solicitudes a servicios web y APIs. Puedes enviar solicitudes HTTP GET para recuperar datos de un servidor web, como información JSON.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl URL_DEL_API
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enviar Datos:&lt;/strong&gt; Puedes enviar datos a un servidor utilizando &lt;code&gt;curl&lt;/code&gt;. Esto es útil para realizar solicitudes HTTP POST y enviar información como formularios o cargas útiles JSON.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -X POST -d &lt;span style=&#34;color:#cd5555&#34;&gt;&amp;#39;nombre=Juan&amp;amp;apellido=Pérez&amp;#39;&lt;/span&gt; URL_DEL_SERVIDOR
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verificar la Conexión:&lt;/strong&gt; Curl puede utilizarse para verificar si un servidor o servicio en línea está disponible y responde correctamente.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -I URL_DEL_SERVIDOR
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Realizar Pruebas de Red:&lt;/strong&gt; Puedes usar &lt;code&gt;curl&lt;/code&gt; para realizar pruebas de conectividad de red, como verificar si un servidor está ejecutando un servicio en un puerto específico.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -v HOST:PUERTO
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; Para utilizar &lt;code&gt;curl&lt;/code&gt; de manera efectiva, es esencial comprender los conceptos básicos de HTTP y cómo funcionan las solicitudes y respuestas web. Los desarrolladores pueden utilizar &lt;code&gt;curl&lt;/code&gt; como una herramienta útil para interactuar con servicios web y depurar problemas de red.&lt;/p&gt;
+&lt;h3 id=&#34;-práctica&#34;&gt;:📚: Práctica&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Ahora practica tú&lt;/h4&gt;
+
+    &lt;ul&gt;
+&lt;li&gt;Realiza la instalación de curl en tu sistema&lt;/li&gt;
+&lt;li&gt;Prueba a conectarte a un sitio web&lt;/li&gt;
+&lt;li&gt;Descarga la página en un fichero llamado pagina.html y luego ábrelo con el navegador&lt;/li&gt;
+&lt;li&gt;Mira las cabeceras
+&lt;ul&gt;
+&lt;li&gt;Verficia la versión del protocolo http&lt;/li&gt;
+&lt;li&gt;Verifica el código que retorna el servidor (prueba con diferentes páginas &amp;hellip;)  *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Verifica el puerto por el que el servidor te ha contestao&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

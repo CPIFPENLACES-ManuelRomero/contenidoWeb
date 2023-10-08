@@ -1,0 +1,153 @@
+<div class="slide">
+===Qué vamos a ver en este curso===
+;Situación de la que partimos
+El profesor va a partir dando por supuesto los siguientes items
+</div>
+<div class="slide">
+{{Objetivos|Title=Situación actual|
+;Estudiado primero de DAW o DAM
+;Sabemos programar en java u otro lenguaje Orientado a Objetos
+;Nos gusta la programación
+;Creo que me gusta mucho el desarrollo web
+}}
+</div>
+<div class="slide">
+;y Ahora qué
+{{Objetivos|Title=Qué cambiará|
+;Vamos a seguir programando pero con algunos cambios
+}}
+</div>
+<div class="slide">
+{{Objetivos|Title=Aprendiendo php|
+*Seguiremos implementando algoritmos (eso siempre)
+}}
+</div>
+<div class="slide">
+{{Objetivos|Title=Aprendiendo php|
+*Va a cambiar en entorno en el cual van a correr las aplicaciones, va a ser en un entorno cliente/servidor
+}}
+</div>
+<div class="slide">
+{{Objetivos|Title=Aprendiendo php|
+*Va a cambiar el lenguaje de programación y un poco su paradigma. Lenguajes interpretados de de tipado dinámico fuertemente orientados a las expresiones PHP
+}}
+</div>
+<div class="slide">
+{{Objetivos|Title=Aprendiendo php|
+*Nuestro trabajo va a ser una parte de un todo.
+}}
+</div>
+
+<div class="slide">
+{{Objetivos|Title=Aprendiendo php|
+*Dependemos de muchos elementos
+#Necesitamos la programación del cliente,
+#Necesitamos la página dónde embeber nuestro código,
+#Necesitmos la red,
+#Necesitamos http para transferir nuestras aplicaciones, datos y el resultado de nuestro código,
+}}
+</div>
+
+
+
+<div class="slide">
+{{Objetivos|Title=Aprendiendo php|
+#Necesitamos un servidor web que residirá en un hosting,
+#El código normalmente se ejecutará en una máquina diferente en la que estamos desarrollando, y esto despista un poco. Siempre en un servicio dedicado: '''''El servidor Web'''''
+}}
+</div>
+
+<div class="slide">
+{{Objetivos|Title=Aprendiendo php|
+;Va a cambiar el entorno en el cual vamos a desarrollar las aplicaciones
+}}
+</div>
+
+<div class="slide">
+===Cómo lo vamos a hacer===
+<br />
+{{Puntos clave|
+*Muy importante, entender lo qué se hace
+}}
+</div>
+
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*Entender las cosas y dedicarle un tiempo para asimilarlas.
+}}
+</div>
+
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*Todas las que estáis aquí sois inteligentes. La inteligencia es una característica de las personas.
+}}
+</div>
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*No todas las personas aprendemos de la misma forma, pero sí que tenemos la facultad de aprender.
+}}
+</div>
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*Lo que sí que me ha demostrado la experiencia es que
+{{MRM_Actividad|Title=Fundamental|
+A PROGRAMAR SE APRENDE PROGRAMANDO.
+}}
+ No es algo que se estudie, se practica.
+}}
+</div>
+<div class="slide">
+
+{{Puntos clave|Title=Aspectos a reflexionar|
+*No hay prisa y el avance está asegurado si en el camino damos pasos seguros.
+}}
+</div>
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*No debe de haber pausa para llegar a alcanzar nuestro objetivo.
+*Ver todo el temario no es el objetivo principal.
+}}
+
+</div>
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*Este temario está pensado para que las empresas os abran las puertas cuando lleguéis a ella.
+*Está pensado para '''''aprender a aprender''''' ....
+}}
+{{Puntos clave|Title=Aspectos a reflexionar|
+</div>
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*El objetivo es '''''aprender disfrutando''''' (y sufriendo un poco je je …).
+}}
+</div>
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*Como profesor, he de decir que mi pretensión es daros el pistoletazo de salida, sois vosotros los que en vuestra carrera profesional habréis de '''''llegar lejos''''',
+}}
+</div>
+<div class="slide">
+{{Puntos clave|Title=Aspectos a reflexionar|
+*Mi misión no es estar en una meta, es encaminaros a vosotros para que lleguéis a ella.
+}}
+</div>
+<div class="slide">
+
+{{MRM_Actividad|Title=Sobre el curso|
+*Cada tema va a tener un soporte documental que intentará aclarar los contenidos
+*Ese soporte se usará para explicar las clases presenciales.
+}}
+</div>
+
+<div class="slide">
+{{MRM_Actividad|Title=Sobre el curso|
+*Cada tema tendrá ejemplos prácticas para poder asimilar los contenidos
+*Cada tema intentará tener una práctica o trabajo que debéis entregar/presentar/defender para evaluaros
+}}
+</div>
+
+<div style="float: right;font-size:30px;text-align:center;background-color:DarkSeaGreen">
+[[Usuario:ManuelRomero/Distancia/NewPHP|Volver al índice del curso]]
+</div>
+
+</div>

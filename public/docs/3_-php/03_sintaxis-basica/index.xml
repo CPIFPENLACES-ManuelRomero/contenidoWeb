@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido de desarrollo web – Empezando</title>
+    <link>http://manuel.infenlaces.com/dwes/docs/3_-php/03_sintaxis-basica/</link>
+    <description>Recent content in Empezando on Contenido de desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
+    
+	  <atom:link href="http://manuel.infenlaces.com/dwes/docs/3_-php/03_sintaxis-basica/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

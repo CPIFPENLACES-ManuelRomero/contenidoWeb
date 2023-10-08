@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido de desarrollo web – App en la Web</title>
+    <link>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/</link>
+    <description>Recent content in App en la Web on Contenido de desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
+    
+	  <atom:link href="http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/30_aplicacion-en-la-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

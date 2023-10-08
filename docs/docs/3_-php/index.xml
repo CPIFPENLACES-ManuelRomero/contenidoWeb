@@ -1,0 +1,349 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido de desarrollo web – PHP</title>
+    <link>http://manuel.infenlaces.com/dwes/docs/3_-php/</link>
+    <description>Recent content in PHP on Contenido de desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
+    
+	  <atom:link href="http://manuel.infenlaces.com/dwes/docs/3_-php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Introducción</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/01_introduccion/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/01_introduccion/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;php-merece-la-pena-aprender-este-lenguaje-&#34;&gt;PHP: ¿Merece la pena aprender este lenguaje ?&lt;/h2&gt;
+&lt;p&gt;Sobre Php es un lenguaje del que se oyen críticas.
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;❓ Merece la pena aprenderlo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;img src=&#34;img.png&#34; alt=&#34;img.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;img_3.png&#34; alt=&#34;img_3.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mitos-de-php&#34;&gt;Mitos de php&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;img_4.png&#34; alt=&#34;img_4.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PHP Vs Javascipt &lt;a href=&#34;https://youtu.be/hZhQyA5cvDs?list=RDLVhZhQyA5cvDs&#34;&gt;https://youtu.be/hZhQyA5cvDs?list=RDLVhZhQyA5cvDs&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;php-dónde-se-usa&#34;&gt;PHP Dónde se usa&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Content management systems (CMS)&lt;/strong&gt;: WordPress, Drupal, Joomla, Magento, TYPO3, Contao, eZ Publish, MODX, SilverStripe, Bolt, October CMS, Grav, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-commerce platforms&lt;/strong&gt;: WooCommerce, Shopify, PrestaShop, OpenCart, Magento, Zen Cart, osCommerce, Shopware, Spree Commerce, Sylius, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning management systems (LMS)&lt;/strong&gt;: Moodle, Chamilo, Docebo, ATutor, Claroline, Forma LMS, ILIAS, Open edX, Sakai, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forum software&lt;/strong&gt;: phpBB, Simple Machines Forum (SMF), MyBB, Flarum, Vanilla Forums, Discourse, FluxBB, PunBB, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wiki software&lt;/strong&gt;: MediaWiki, DokuWiki, Tiki Wiki CMS Groupware, PmWiki, MoinMoin, Foswiki, WikkaWiki, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Social networking software&lt;/strong&gt;: Elgg, Dolphin, Oxwall, HumHub, SocialEngine, BuddyPress, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project management software:&lt;/strong&gt; Redmine, MantisBT, OpenProject, Trac, ProjectSend, Collabtive, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer relationship management (CRM)&lt;/strong&gt; software: SuiteCRM, SugarCRM, Vtiger CRM, Zurmo, EspoCRM, Dolibarr, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Human resource management (HRM) software&lt;/strong&gt;: OrangeHRM, Sentrifugo HRM, FrontAccounting, WaypointHR, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Billing and invoicing software&lt;/strong&gt;: InvoicePlane, Simple Invoices, FusionInvoice, Akaunting, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Help desk software&lt;/strong&gt;: osTicket, OTRS, GLPI, Zammad, HESK, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web analytics software&lt;/strong&gt;: Matomo (formerly Piwik), Open Web Analytics (OWA), AWStats, GoAccess, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;img_5.png&#34; alt=&#34;img_5.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;el-lenguaje-php&#34;&gt;El lenguaje PHP&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30589&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30589&#34;&gt;https://es.wikieducator.org/index.php?oldid=30589&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Instalacion</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/02_instalacion/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/02_instalacion/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;aplicaciones-que-vamos-a-utilizar&#34;&gt;Aplicaciones que vamos a utilizar&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El servidor web Apache, php, mysql y phpmyadmin
+El edi phpstorm
+Xampp Herramienta windows para el proceso de instalación/gestión de servidores y aplicaciones antes descritas&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+Accedemos a la web, descargamos los ficheros e instalamos&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jetbrains.com/phpstorm/promo/?source=google&amp;amp;medium=cpc&amp;amp;campaign=14335686144&amp;amp;term=phpstorm&amp;amp;content=604147130390&amp;amp;gad=1&amp;amp;gclid=Cj0KCQjwr82iBhCuARIsAO0EAZw2zXOEBLrzMEG7_TAQ4flB03pgYGJ-KKWCK3H4gb70Z1kOUoXIjmwaAleuEALw_wcB&#34;&gt;PhpStorm de jetbrains&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;realizando-las-instalaciones&#34;&gt;Realizando las instalaciones&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?curid=5764&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?curid=5764&#34;&gt;https://es.wikieducator.org/index.php?curid=5764&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Empezando</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/03_sintaxis-basica/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/03_sintaxis-basica/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;empezando-con-php-sintaxis-básica&#34;&gt;Empezando con php: Sintaxis básica&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30592&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30592&#34;&gt;https://es.wikieducator.org/index.php?oldid=30592&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Declaraciones</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/05_declaraciones/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/05_declaraciones/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;declaraciones&#34;&gt;Declaraciones&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30601&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30601&#34;&gt;https://es.wikieducator.org/index.php?oldid=30601&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Control</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/06_estructuras-de-control/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/06_estructuras-de-control/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;estructuras-de-control&#34;&gt;Estructuras de control&lt;/h1&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30600&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30600&#34;&gt;https://es.wikieducator.org/index.php?oldid=30600&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Escribiendo</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/04_escribiendo/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/04_escribiendo/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;instrucciones-para-escribir&#34;&gt;Instrucciones para escribir&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?curid=6500&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?curid=6500&#34;&gt;https://es.wikieducator.org/index.php?curid=6500&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Expresiones</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/07_expresiones/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/07_expresiones/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;operadores-y--expresiones&#34;&gt;Operadores y  Expresiones&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30602&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30602&#34;&gt;https://es.wikieducator.org/index.php?oldid=30602&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Otros aspectos</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/08_otros-aspectos/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/08_otros-aspectos/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;otros-aspectos-del-lenguaje&#34;&gt;Otros aspectos del lenguaje&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30603&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30603&#34;&gt;https://es.wikieducator.org/index.php?oldid=30603&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
