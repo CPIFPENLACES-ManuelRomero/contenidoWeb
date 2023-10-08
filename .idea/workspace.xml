@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4b6b21b-40e8-4890-91f9-ac9ccedbedc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../inaem/content/docs/presentacion/horario_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inaem/content/docs/presentacion/horario_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inaem/content/docs/presentacion/horario_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inaem/content/docs/presentacion/horario_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inaem/content/docs/presentacion/horario_curso.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/assets/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/en/introduccion/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/en/introduccion/contenido.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/en/introduccion/plantilla.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/en/introduccion/tema 1/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/en/introduccion/tema 2/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/en/introduccion/tema 3/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/es/introduccion/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/es/introduccion/contenido.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/es/introduccion/mi_plantilla.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/es/introduccion/plantilla.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/es/introduccion/tema 1/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/es/introduccion/tema 2/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/es/introduccion/tema 3/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/fr/introduccion/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/fr/introduccion/contenido.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/fr/introduccion/plantilla.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/fr/introduccion/tema 1/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/fr/introduccion/tema 2/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/fr/introduccion/tema 3/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/introduccion/contenido.en.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/introduccion/contenido.es.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/introduccion/contenido.fr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/introduccion/plantilla.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/introduccion/tema 1/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/introduccion/tema 2/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/content/introduccion/tema 3/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/data/datos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/data/mis_datos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/data/tv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/layouts/_default/mi_plantilla.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/layouts/_default/plantilla.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/layouts/shortcodes/color.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/categories/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/categories/tecnología/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/categories/tecnología/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/categories/viajes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/categories/viajes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/auto-complete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/chroma-learn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/chroma-neon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/chroma-relearn-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/chroma-relearn-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/format-print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/nucleus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/perfect-scrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/swagger-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/swagger-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/swagger.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/tags.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-auto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-learn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-neon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-relearn-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-relearn-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-relearn-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-relearn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-zen-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme-zen-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/variant-internal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/css/variant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/categories/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/categories/tecnología/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/categories/tecnología/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/categories/viajes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/categories/viajes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/index.search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/contenido/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/plantilla/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/tema-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/tema-1/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/tema-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/tema-2/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/tema-3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/introduccion/tema-3/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/blog/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/hugo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/hugo/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/en/tags/web/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/es/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/es/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fonts/WorkSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/categories/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/categories/tecnología/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/categories/tecnología/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/categories/viajes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/categories/viajes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/index.search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/contenido/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/plantilla/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/tema-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/tema-1/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/tema-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/tema-2/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/tema-3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/introduccion/tema-3/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/blog/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/hugo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/hugo/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/fr/tags/web/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/index.search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/contenido/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/mi_plantilla/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/plantilla/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/tema-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/tema-1/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/tema-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/tema-2/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/tema-3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/introduccion/tema-3/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/auto-complete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/clipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-color.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-dispatch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-drag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-ease.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-interpolate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-selection.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-timer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-transition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/d3/d3-zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.du.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.en.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.jp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.multi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.stemmer.support.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/lunr.zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/tinyseg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/lunr/wordcut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/a11y/assistive-mml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/a11y/complexity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/a11y/explorer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/a11y/semantic-enrich.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/adaptors/liteDOM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/asciimath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/mml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/mml/entities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/mml/extensions/mml3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/mml/extensions/mml3.sef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex-base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex-full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/all-packages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/ams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/amscd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/autoload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/bbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/boldsymbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/braket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/bussproofs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/centernot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/colortbl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/colorv2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/configmacros.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/enclose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/extpfeil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/gensymb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/mathtools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/mhchem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/newcommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/noerrors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/noundefined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/physics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/setoptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/tagformat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/textcomp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/textmacros.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/unicode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/upgreek.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/input/tex/extensions/verb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/latest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/mml-chtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/mml-svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/node-main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/output/svg/fonts/tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/mathmaps/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/mathmaps/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/mathmaps/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/mathmaps/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/mathmaps/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/mathmaps/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/mathmaps/nemeth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/sre-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/sre/sre_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/startup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/tex-chtml-full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/tex-chtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/tex-mml-chtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/tex-mml-svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/tex-svg-full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/tex-svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/ui/lazy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/ui/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mathjax/ui/safe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/mermaid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/swagger-ui/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/swagger-ui/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/swagger-ui/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/js/variant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/blog/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/hugo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/hugo/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/tags/web/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/scss/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/scss/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/less/_mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/less/_mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/browserstack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/browserstack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/bundlewatch.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/bundlewatch.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/css.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/css.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/docs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/js.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/lint.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/build/ship.sh" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/build/ship.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/scrollspy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/vendor/anchor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/vendor/anchor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_algolia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_algolia.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_brand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/modal.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/modal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/navbar.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/navbar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/dashboard/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/dashboard/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/jumbotron/jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/jumbotron/jumbotron.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer-navbar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer-navbar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/examples.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/examples.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/sidebar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/sidebar.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js/vendor/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js/vendor/jquery.slim.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/partials/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/partials/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/imgproc.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/imgproc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/tab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Adding content/repository-links.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Adding content/repository-links.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Getting started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Getting started/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/.idea/inaem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/.idea/inaem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/content/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/content/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/content/docs/modulos/cliente/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/content/docs/modulos/cliente/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/content/docs/modulos/cliente/oscar/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/content/docs/modulos/cliente/oscar/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/content/docs/modulos/servicios/oscar/oscarA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/content/docs/modulos/servicios/oscar/oscarA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/content/docs/presentacion/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/content/docs/presentacion/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/juanda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/juanda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/oscar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/cliente/oscar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/nacho/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/nacho/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/oscar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/oscar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/oscar/oscarA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servicios/oscar/oscarA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servidor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servidor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servidor/manuel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servidor/manuel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/modulos/servidor/silvia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/modulos/servidor/silvia/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/docs/presentacion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/docs/presentacion/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inaem/themes/docsy" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/themes/docsy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/.idea/prueba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/.idea/prueba.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/content/introduccion/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/content/introduccion/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/content/introduccion/contenido.md" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/content/introduccion/contenido.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/docs/css/format-print.css" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/docs/css/format-print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/docs/css/theme-neon.css" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/docs/css/theme-neon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/docs/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/docs/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/docs/index.search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/docs/index.search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/docs/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/docs/js/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba/themes/relearn" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba/themes/relearn" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2VTP0x24nW1YBTfXLQQz7eSyPV2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "/home/oem/hugo/nett",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/es/docs/3_ php" />
+      <recent name="$PROJECT_DIR$/content/es/docs/3_ php/03_Sintaxis básica" />
+      <recent name="$PROJECT_DIR$/content/es/docs/3_ php/Introduccion" />
+      <recent name="$PROJECT_DIR$/../prueba/content/es/introduccion" />
+      <recent name="$PROJECT_DIR$/../prueba/content/introduccion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/es/docs/3_ php/01_Introduccion" />
+      <recent name="$PROJECT_DIR$/content/es/docs/3_ php" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4b6b21b-40e8-4890-91f9-ac9ccedbedc8" name="Changes" comment="" />
+      <created>1694856878984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694856878984</updated>
+      <workItem from="1694856880395" duration="5169000" />
+      <workItem from="1694866545232" duration="6690000" />
+      <workItem from="1694947032036" duration="3135000" />
+      <workItem from="1695012183196" duration="1974000" />
+      <workItem from="1695099232298" duration="1619000" />
+      <workItem from="1695105577378" duration="1647000" />
+      <workItem from="1695116054220" duration="773000" />
+      <workItem from="1695201833115" duration="120000" />
+      <workItem from="1695874342431" duration="6209000" />
+      <workItem from="1695883929682" duration="8180000" />
+      <workItem from="1695911496585" duration="481000" />
+      <workItem from="1696117513956" duration="1537000" />
+      <workItem from="1696153547877" duration="477000" />
+      <workItem from="1696219002342" duration="5029000" />
+      <workItem from="1696229903380" duration="15000" />
+      <workItem from="1696760872844" duration="1589000" />
+      <workItem from="1696783300235" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
