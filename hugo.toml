@@ -1,4 +1,5 @@
-baseURL = 'http://manuel.infenlaces.com/dwes'
+#baseURL = 'http://manuel.infenlaces.com/dwes'
+baseURL = 'https://cpilosenlaces-malejandror.hithub.io/contenidoWeb
 #baseURL = 'http://localhost'
 languageCode = 'es-es'
 title = 'Conceptos sobre desarrollo web'
