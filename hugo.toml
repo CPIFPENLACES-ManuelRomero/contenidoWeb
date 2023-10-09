@@ -1,4 +1,4 @@
-baseURL = 'https://cpilosenlaces-malejandror.github.io/contenidoWeb'
+baseURL = 'https://cpilosenlaces-malejandror.github.io/contenidoWeb/'
 #baseURL = 'http://manuel.infenlaces.com/dwes'
 #baseURL = 'http://localhost'
 languageCode = 'es-es'
