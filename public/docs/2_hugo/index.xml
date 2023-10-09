@@ -737,7 +737,18 @@ Para crear un token accedemos a la opción Settings del menú de nuestro usuario
 En esta acción, sí que exige que nos identifiquemos con nuestra password&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;scope.png&#34; alt=&#34;scopie&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;tocken&#34;&gt;Tocken&lt;/h3&gt;
+&lt;p&gt;Para acceder a git hay que identificarse. Actualmente git utiliza el tocken para permitir el acceso a tu cuenta.&lt;br&gt;
+Para crear un tocken:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;primero vamos a opción &lt;strong&gt;setting&lt;/strong&gt; de nuestro menú de configuración en git&lt;/li&gt;
+&lt;li&gt;A continuación en el menú izquierdo seleccionamos &lt;strong&gt;Developer settings&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Y seleccionamos &lt;strong&gt;Personal access setting&lt;/strong&gt;
+&lt;img src=&#34;crear_token_git.png&#34; alt=&#34;crear tocken en git&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;clave-pública-y-privada&#34;&gt;Clave pública y privada&lt;/h3&gt;
+&lt;p&gt;Es una forma más cómoda de gestionar la seguridad. Consiste en añadir nuestra clave pública a git, de esta forma no vamos a tener que acreditarnos cada vez que queramos actuar con git &lt;br&gt;
+En este caso la opción, una vez selecionado  &lt;strong&gt;setting&lt;/strong&gt; está en &lt;strong&gt;SSH and GPG keys&lt;/strong&gt;
+&lt;img src=&#34;ssh_public_git.png&#34; alt=&#34;crear tocken en git&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Crear&lt;/p&gt;
 
       </description>

@@ -137,7 +137,7 @@ En esta acción, sí que exige que nos identifiquemos con nuestra password
 ![scopie](scope.png)
 
 
-### Tocken
+### Token
 Para acceder a git hay que identificarse. Actualmente git utiliza el tocken para permitir el acceso a tu cuenta.   
 Para crear un tocken:
 1. primero vamos a opción __setting__ de nuestro menú de configuración en git
@@ -152,4 +152,4 @@ En este caso la opción, una vez selecionado  __setting__ está en __SSH and GPG
 
 
 
-Crear 
+### Desplegar nuestro proyecto en git
