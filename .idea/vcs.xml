@@ -3,8 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/docsy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../inaem" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../prueba" vcs="Git" />
   </component>

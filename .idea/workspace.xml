@@ -339,71 +339,7 @@
       <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.woff" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../prueba/public/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/scss/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/scss/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/less/_mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/less/_mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/browserstack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/browserstack.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/bundlewatch.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/bundlewatch.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/css.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/css.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/docs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/js.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/.github/workflows/lint.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/build/ship.sh" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/build/ship.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/dist/popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/src/popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/scrollspy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/js/tests/unit/tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/vendor/anchor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/js/vendor/anchor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_algolia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_algolia.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/assets/scss/_brand.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/modal.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/modal.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/navbar.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components/navbar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/dashboard/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/dashboard/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/jumbotron/jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/jumbotron/jumbotron.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer-navbar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer-navbar/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/examples.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/examples.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/sidebar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/data/sidebar.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js/vendor/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js/vendor/jquery.slim.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/partials/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/partials/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/partials/scripts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/imgproc.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/imgproc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/tab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Adding content/repository-links.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Adding content/repository-links.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Getting started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/userguide/content/en/docs/Getting started/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inaem/.idea/inaem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/.idea/inaem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inaem/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inaem/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inaem/.idea/php.xml" afterDir="false" />
@@ -499,7 +435,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "/home/oem/hugo/nett",
+    "last_opened_file_path": "/home/oem/hugo/contenidoWeb",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -546,6 +482,7 @@
       <workItem from="1696229903380" duration="15000" />
       <workItem from="1696760872844" duration="1589000" />
       <workItem from="1696783300235" duration="24000" />
+      <workItem from="1696824875284" duration="27000" />
     </task>
     <servers />
   </component>
