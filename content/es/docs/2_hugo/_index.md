@@ -1,7 +1,7 @@
 ---
 title: "Hugo: Creando Sitios Estáticos"
 linkTitle: "Sitios Estáticos"
-weight: 30
+weight: 90
 date: 2021-09-15
 description: >
   Introducción a la creación de sitios estáticos con Hugo

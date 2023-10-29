@@ -153,3 +153,21 @@ En este caso la opción, una vez selecionado  __setting__ está en __SSH and GPG
 
 
 ### Desplegar nuestro proyecto en git
+
+{{% pageinfo color="primary" %}}
+__:information_source:Vamos a indicar cómo realizar un proyecto en git y desplegarlo en github.__
+{{% /pageinfo %}}
+#### Cargar el tema como un submódulo y no clonarlo directamente.  
+> Al hacer esta acción, se creará un fichero llamado __.gitmodules__ que contendrá la información para que git sepa qué submódulo tiene que añadir a nuestro proyecto para el tema o plantilla   
+
+1. Borramos el tema que tuviéramos (en el ejemplo que estamos usando)
+```bash
+sudo rm themes/relearn
+```
+2. Cargamos el tema como un submódulo
+```bash
+git add submodule https://github.com/McShelby/hugo-theme-relearn.git themes/relearn
+```
+
+
+

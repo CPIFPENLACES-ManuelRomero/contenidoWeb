@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido de desarrollo web – Configuracion docker-compose-yaml</title>
+    <link>http://manuel.infenlaces.com/dwes/docs/0_docker/01_comandos_resumen/2_resumen_configuracion_docker_compose/</link>
+    <description>Recent content in Configuracion docker-compose-yaml on Contenido de desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+	  <atom:link href="http://manuel.infenlaces.com/dwes/docs/0_docker/01_comandos_resumen/2_resumen_configuracion_docker_compose/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

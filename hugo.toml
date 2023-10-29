@@ -1,5 +1,5 @@
-baseURL = 'https://cpilosenlaces-malejandror.github.io/contenidoWeb/'
-#baseURL = 'http://manuel.infenlaces.com/dwes'
+#baseURL = 'https://cpilosenlaces-malejandror.github.io/contenidoWeb/'
+baseURL = 'http://manuel.infenlaces.com/dwes'
 #baseURL = 'http://localhost'
 languageCode = 'es-es'
 title = 'Conceptos sobre desarrollo web'
@@ -69,27 +69,29 @@ pygmentsStyle = "perldoc"
 
 [languages.en]
 title = "Docsy"
-description = "Docsy er operativsystem for skyen"
+
 languageName = "English"
 contentDir = "content/en"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+ [languages.en.params]
+ description = "English Languege for class notes "
+
 
 [languages.es]
 title = "Contenido de desarrollo web"
-description = "Apuntes sobre web"
+
 languageName = "Español"
 contentDir = "content/es"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+[languages.es.params]
+description = "Apuntes sobre web"
 
 [languages.fr]
 title = "Docsy"
-description = "Docsy er operativsystem for skyen"
+
 languageName = "Francés"
 contentDir = "content/fr"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+[languages.fr.params]
+description = "Langue française pour les prises de notes"
+
 
 [params.ui]
 sidebar_menu_compact = true

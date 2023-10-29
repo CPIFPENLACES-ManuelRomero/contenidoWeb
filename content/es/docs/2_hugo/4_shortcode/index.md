@@ -52,7 +52,7 @@ El efecto de ponerlo es el siguiente
 ```
 
 Resultado
-{{<tweet 877500564405444608>}}
+{{<tweet "manuel" 877500564405444608>}}
 
 
 **Vimeo**

@@ -17,6 +17,12 @@
     <loc>http://manuel.infenlaces.com/dwes/docs/0_presentaci%C3%B3n/</loc>
     <lastmod>2023-04-08T18:21:47+02:00</lastmod>
   </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/01_comandos_resumen/</loc>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/01_comandos_resumen/0_resumen_comandos_docker/</loc>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/02_ejercicios/1_imagenes/</loc>
+  </url><url>
     <loc>http://manuel.infenlaces.com/dwes/docs/0_presentaci%C3%B3n/0_manuel/</loc>
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/docs/1_conceptos-de-web-developer/1_1_cliente/</loc>
@@ -42,6 +48,12 @@
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/docs/0_presentaci%C3%B3n/1_motivacion/</loc>
     <lastmod>2023-04-08T18:21:47+02:00</lastmod>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/02_ejercicios/2_contenedores/</loc>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/01_comandos_resumen/1_resumen_instrucciones_docker_file/</loc>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/02_ejercicios/</loc>
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/docs/2_hugo/1_instalacion/</loc>
     <lastmod>2021-10-04T12:01:52+02:00</lastmod>
@@ -76,8 +88,11 @@
     <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/03_sintaxis-basica/</loc>
     <lastmod>2023-04-08T18:21:47+02:00</lastmod>
   </url><url>
-    <loc>http://manuel.infenlaces.com/dwes/docs/2_hugo/</loc>
-    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/02_ejercicios/3_contenedores_imagenes/</loc>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/01_comandos_resumen/2_resumen_configuracion_docker_compose/</loc>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/0_docker/</loc>
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/05_declaraciones/</loc>
     <lastmod>2023-04-08T18:21:47+02:00</lastmod>
@@ -98,6 +113,24 @@
     <lastmod>2023-04-08T18:21:47+02:00</lastmod>
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/08_otros-aspectos/</loc>
+    <lastmod>2023-04-08T18:21:47+02:00</lastmod>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/2_hugo/</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/</loc>
+    <lastmod>2023-04-08T18:21:47+02:00</lastmod>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/2_contenidos/</loc>
+    <lastmod>2023-04-08T18:21:47+02:00</lastmod>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/3_redirigiendo/</loc>
+    <lastmod>2023-04-08T18:21:47+02:00</lastmod>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/4_ejercicios/</loc>
+    <lastmod>2023-04-08T18:21:47+02:00</lastmod>
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/5_practica/</loc>
     <lastmod>2023-04-08T18:21:47+02:00</lastmod>
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/</loc>

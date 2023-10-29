@@ -1,0 +1,139 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contenido de desarrollo web – Objetivos</title>
+    <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/</link>
+    <description>Recent content in Objetivos on Contenido de desarrollo web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
+    
+	  <atom:link href="http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Teoría</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/2_contenidos/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/2_contenidos/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;teoría-sobre-formularios&#34;&gt;Teoría sobre formularios&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34;&gt;https://es.wikieducator.org/index.php?oldid=30054&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: redirigiendo</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/3_redirigiendo/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/3_redirigiendo/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;redirigiendo-páginas&#34;&gt;Redirigiendo páginas&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34;&gt;https://es.wikieducator.org/index.php?oldid=30054&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Ejercicios</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/4_ejercicios/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/4_ejercicios/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;para-practicar&#34;&gt;Para practicar&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?curid=5581&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?curid=5581&#34;&gt;https://es.wikieducator.org/index.php?curid=5581&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Práctica</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/5_practica/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/5_practica/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;realiza-la-siguiente-aplicación&#34;&gt;Realiza la siguiente aplicación&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

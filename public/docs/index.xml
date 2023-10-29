@@ -145,8 +145,8 @@ Manuel Romero Miguel
 
 &lt;/div&gt;
 
-&lt;p&gt;
 
+  
   
 &lt;ul class=&#34;nav nav-tabs&#34; id=&#34;tabs-2&#34; role=&#34;tablist&#34;&gt;
   &lt;li class=&#34;nav-item&#34;&gt;
@@ -167,17 +167,17 @@ Manuel Romero Miguel
 &lt;div class=&#34;tab-content&#34; id=&#34;tabs-2-content&#34;&gt;
     &lt;div class=&#34;tab-pane fade show active&#34;
         id=&#34;tabs-02-00&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-02-00-tab&#34; tabindex=&#34;2&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo apt-get install hugo
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      sudo apt-get install hugo
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;tab-pane fade&#34;
         id=&#34;tabs-02-01&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-02-01-tab&#34; tabindex=&#34;2&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo snap install hugo --classic
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+        &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;      sudo snap install hugo --classic
+  &lt;/code&gt;&lt;/pre&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
-Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&gt;snap&lt;/a&gt; instalado&lt;/p&gt;
+&lt;p&gt;Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&gt;snap&lt;/a&gt; instalado&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install snapd
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
 
@@ -816,7 +816,7 @@ Para crear un token accedemos a la opción Settings del menú de nuestro usuario
 &lt;p&gt;Ahí podemos generar un nuevo token, asignar su caducidad y debemos asigar los &lt;em&gt;&lt;strong&gt;scope&lt;/strong&gt;&lt;/em&gt; o permisos que indican qué se puede hacer con ese token. Debemos dar permisos para acceder al repositorio
 En esta acción, sí que exige que nos identifiquemos con nuestra password&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;scope.png&#34; alt=&#34;scopie&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;tocken&#34;&gt;Tocken&lt;/h3&gt;
+&lt;h3 id=&#34;token&#34;&gt;Token&lt;/h3&gt;
 &lt;p&gt;Para acceder a git hay que identificarse. Actualmente git utiliza el tocken para permitir el acceso a tu cuenta.&lt;br&gt;
 Para crear un tocken:&lt;/p&gt;
 &lt;ol&gt;
@@ -829,8 +829,27 @@ Para crear un tocken:&lt;/p&gt;
 &lt;p&gt;Es una forma más cómoda de gestionar la seguridad. Consiste en añadir nuestra clave pública a git, de esta forma no vamos a tener que acreditarnos cada vez que queramos actuar con git &lt;br&gt;
 En este caso la opción, una vez selecionado  &lt;strong&gt;setting&lt;/strong&gt; está en &lt;strong&gt;SSH and GPG keys&lt;/strong&gt;
 &lt;img src=&#34;ssh_public_git.png&#34; alt=&#34;crear tocken en git&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Crear&lt;/p&gt;
+&lt;h3 id=&#34;desplegar-nuestro-proyecto-en-git&#34;&gt;Desplegar nuestro proyecto en git&lt;/h3&gt;
 
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;ℹ️Vamos a indicar cómo realizar un proyecto en git y desplegarlo en github.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;cargar-el-tema-como-un-submódulo-y-no-clonarlo-directamente&#34;&gt;Cargar el tema como un submódulo y no clonarlo directamente.&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Al hacer esta acción, se creará un fichero llamado &lt;strong&gt;.gitmodules&lt;/strong&gt; que contendrá la información para que git sepa qué submódulo tiene que añadir a nuestro proyecto para el tema o plantilla&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Borramos el tema que tuviéramos (en el ejemplo que estamos usando)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo rm themes/relearn
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Cargamos el tema como un submódulo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add submodule https://github.com/McShelby/hugo-theme-relearn.git themes/relearn
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
@@ -864,7 +883,7 @@ Es una forma de dar efectos visuales y de poder tener mayor funcionalidad dentro
 &lt;p&gt;Pues podría cargar ese vídeo usando el &lt;strong&gt;shortcode&lt;/strong&gt; de hugo&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go-html-template&#34; data-lang=&#34;go-html-template&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e889b&#34;&gt;{{&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;&amp;lt;&lt;/span&gt;youtube&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;j9WyKTGAO2w&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#1e889b&#34;&gt;}}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El efecto de ponerlo es el siguiente&lt;/p&gt;
-&lt;h2 id=&#34;hahahugoshortcode57s1hbhb&#34;&gt;
+&lt;h2 id=&#34;hahahugoshortcode71s1hbhb&#34;&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/j9WyKTGAO2w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -886,7 +905,7 @@ Es una forma de dar efectos visuales y de poder tener mayor funcionalidad dentro
   &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hahahugoshortcode57s5hbhb&#34;&gt;Resultado
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hahahugoshortcode71s5hbhb&#34;&gt;Resultado
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
@@ -2255,6 +2274,126 @@ El contenido de estos ficheros es igual salvo que cada uno referencia a una imag
 
 &lt;/div&gt;
 
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Teoría</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/2_contenidos/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/2_contenidos/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;teoría-sobre-formularios&#34;&gt;Teoría sobre formularios&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34;&gt;https://es.wikieducator.org/index.php?oldid=30054&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: redirigiendo</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/3_redirigiendo/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/3_redirigiendo/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;redirigiendo-páginas&#34;&gt;Redirigiendo páginas&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?oldid=30054&#34;&gt;https://es.wikieducator.org/index.php?oldid=30054&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Ejercicios</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/4_ejercicios/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/4_ejercicios/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;para-practicar&#34;&gt;Para practicar&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;script type=&#34;text/javascript&#34;&gt;
+    function resizeIframe(iframe) {
+      iframe.height = iframe.contentWindow.document.body.scrollHeight + &#34;px&#34;;
+    }
+  &lt;/script&gt;  
+
+&lt;iframe id=&#34;iframe-id&#34; src=&#34;https://es.wikieducator.org/index.php?curid=5581&#34; width=&#34;100%&#34; name=&#34;iframe-name&#34; style=&#34;min-height:98vh; border:none;&#34; onload=&#34;resizeIframe(this)&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+  &lt;p&gt;Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href=&#34;https://es.wikieducator.org/index.php?curid=5581&#34;&gt;https://es.wikieducator.org/index.php?curid=5581&lt;/a&gt;&lt;/p&gt;
+&lt;/iframe&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Práctica</title>
+      <link>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/5_practica/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/docs/3_-php/09_formularios/5_practica/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;realiza-la-siguiente-aplicación&#34;&gt;Realiza la siguiente aplicación&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
 
       </description>
     </item>

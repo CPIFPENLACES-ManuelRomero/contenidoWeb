@@ -38,13 +38,15 @@ Recuerda:
 {{% /pageinfo %}}
 
 {{< tabpane >}}
-{{< tab header="apt-get" lang="shell">}}
-    sudo apt-get install hugo
+  {{< tab header="apt-get" lang="shell">}}
+      sudo apt-get install hugo
   {{< /tab >}}
-  {{< tab header="snap" lang="shell">}}
-    sudo snap install hugo --classic
+  {{< tab header="snap" >}}
+      sudo snap install hugo --classic
   {{< /tab >}}
 {{< /tabpane >}}
+
+
 Si no tuviera [snap](https://snapcraft.io/docs/snap-documentation) instalado
 ```bash
 sudo apt-get install snapd
